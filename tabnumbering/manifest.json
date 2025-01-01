@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Numbering",
+  "version": "1.0",
+  "description": "最初の8個のタブに番号を振ります",
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_icon": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
