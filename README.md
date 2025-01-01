@@ -5,7 +5,7 @@ Shortcut key for switching between tabs in Chrome for Mac.
 
 This extension shows tab number and helps you use these shortcuts.
 
-Download "tabnumbering" folder. Access "chrome://extensions/" and enable "developer mode." Then clicking "load unpacked" , load the folder you've downloaded.
+Download "tabnumbering" folder. Access "chrome://extensions/" and enable "developer mode." Then clicking "load unpacked" , load the folder you've downloaded above.
 
 This is a extention for Google Chrome. It works also in Brave (or other Chromium browsers.)  
 
