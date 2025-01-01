@@ -50,7 +50,8 @@ function scheduleUpdate() {
 }
 
 
-// 新しいタブが開かれた際に、10個目のタブが開かれると新しいウィンドウを開く
+// open as a new window(now suspended)
+/*
 chrome.tabs.onCreated.addListener(async (tab) => {
   const tabs = await chrome.tabs.query({ currentWindow: true });
   if (tabs.length >= 10) {  // 10個目のタブが開かれた場合、新しいウィンドウで開く
@@ -58,6 +59,7 @@ chrome.tabs.onCreated.addListener(async (tab) => {
   }
   scheduleUpdate();
 });
+*/
 
 
 // 拡張機能のアイコンがクリックされたときに即時実行
